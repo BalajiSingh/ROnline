@@ -1,0 +1,306 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ROL</groupId>
+	<artifactId>ROL</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<aspectj.version>1.7.4</aspectj.version>
+		<allure.version>1.4.22</allure.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.surefire.verion>2.18</maven.surefire.verion>
+		<io.cucumber.verion>4.2.1</io.cucumber.verion>
+
+	</properties>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<executions>
+					<execution>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>compile</goal>
+						</goals>
+					</execution>
+				</executions>
+				<!-- <configuration> <source>${maven.compiler.source}</source> <target>${maven.compiler.target}</target> 
+					<fork>true</fork> <executable>C:\Program Files\Java\jdk1.8.0_191\bin\javac</executable> 
+					</configuration> -->
+			</plugin>
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.0.1</version>
+				<executions>
+					<execution>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${basedir}/target/test-classes</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/main/resources</directory>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.18</version>
+
+				<configuration>
+										
+							
+					<systemPropertyVariables>
+						<propertyName>java.library.path</propertyName>
+						<buildDirectory>src/main/resources/configFile</buildDirectory>
+
+					</systemPropertyVariables>
+					<testFailureIgnore>true</testFailureIgnore>
+					<argLine>
+						-javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
+					</argLine>
+					<properties>
+						<property>
+							<name>dataproviderthreadcount</name>
+							<value>2</value>
+						</property>
+					</properties>
+					<suiteXmlFiles>
+						<suiteXmlFile>src/test/resources//testng.xml</suiteXmlFile> 
+						<!-- <suiteXmlFile>src/test/java/com/ryder/online/test/testng/testng.xml</suiteXmlFile>    -->
+					</suiteXmlFiles>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>org.aspectj</groupId>
+						<artifactId>aspectjweaver</artifactId>
+						<version>${aspectj.version}</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+			<plugin>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-maven-plugin</artifactId>
+				<version>9.2.10.v20150310</version>
+			</plugin>
+			<!-- <plugin> <groupId>ch.fortysix</groupId> <artifactId>maven-postman-plugin</artifactId> 
+				<version>0.1.6</version> <executions> <execution> <id>send_an_email</id> 
+				<phase>test</phase> <goals> <goal>send-mail</goal> </goals> <inherited>false</inherited> 
+				<configuration> <mailhost>smtp.gmail.com</mailhost> <mailport>465</mailport> 
+				<mailauth>true</mailauth> <mailssl>true</mailssl> <mailAltConfig>true</mailAltConfig> 
+				<mailuser>rydertest12@gmail.com</mailuser> <mailpassword>Ryder@123</mailpassword> 
+				<from>rydertest12@gmail.com</from> <subject>UVS E-commerce Automation Report 
+				</subject> <failonerror>true</failonerror> <htmlMessage> <![CDATA[ <p>Hi,</p> 
+				<p>Check out the attached test execution report.</p> <p>From,</p> <p>Madhu 
+				Golla</p> <p>UVS Automation Team</p> ]]> </htmlMessage> <receivers> <receiver>Madhu_Golla@ryder.com</receiver> 
+				<receiver>rydertest12@gmail.com</receiver> </receivers> <fileSets> <fileSet> 
+				<directory>${basedir}/Automation_Report/Reports</directory> <includes> <include>**/Report.html</include> 
+				</includes> </fileSet> </fileSets> </configuration> </execution> </executions> 
+				</plugin> -->
+		</plugins>
+	</build>
+
+	<dependencies>
+		<!--Cucumber Dependencies -->
+
+
+		<!-- cucumber-java -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<!-- <version>${io.cucumber.verion}</version> -->
+			<version>4.2.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-jvm</artifactId>
+			<!-- <version>5.1.0</version> -->
+			<version>4.2.1</version>
+			<type>pom</type>
+		</dependency>
+
+		<!--cucumber-jvm-deps <dependency> <groupId>io.cucumber</groupId> <artifactId>cucumber-jvm-deps</artifactId> 
+			<version>1.0.6</version> </dependency> -->
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-core</artifactId>
+			<!-- <version>5.1.0</version> -->
+			<version>4.2.1</version>
+			<!-- <version>1.2.6</version> -->
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-gherkin</artifactId>
+			<!-- <version>3.2.0</version> -->
+			<version>5.1.0</version>
+		</dependency>
+
+		<!-- cucumber-testng -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<!-- <version>${io.cucumber.verion}</version> -->
+			<version>4.2.1</version>
+		</dependency>
+
+		<!-- cucumber-picocontainer -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-picocontainer</artifactId>
+			<version>${io.cucumber.verion}</version>
+		</dependency>
+
+
+
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180813</version>
+		</dependency>
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+		<!-- <dependency> <groupId>com.googlecode.json-simple</groupId> <artifactId>json-simple</artifactId> 
+			<version>1.1.1</version> </dependency> -->
+
+
+
+		<!-- Logging -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+
+		<!-- Extent Reports -->
+		<!-- <dependency> <groupId>com.vimalselvam</groupId> <artifactId>cucumber-extentsreport</artifactId> 
+			<version>3.0.2</version> </dependency> <dependency> <groupId>com.aventstack</groupId> 
+			<artifactId>extentreports</artifactId> <version>3.1.2</version> </dependency> 
+			<dependency> <groupId>com.relevantcodes</groupId> <artifactId>extentreports</artifactId> 
+			<version>2.41.1</version> </dependency> -->
+
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>4.0.9</version>
+		</dependency>
+		<!-- extentreports-cucumber4-adapter -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports-cucumber4-adapter</artifactId>
+			<version>1.0.8</version>
+		</dependency>
+
+		<!-- Testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.surefire/surefire-testng -->
+		<dependency>
+			<groupId>org.apache.maven.surefire</groupId>
+			<artifactId>surefire-testng</artifactId>
+			<version>3.0.0-M5</version>
+		</dependency>
+
+
+
+		<!-- Selenium -->
+		<!-- io.github.bonigarcia webdrivermanager -->
+
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>3.5.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.0.0-alpha-4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.paulhammant/ngwebdriver -->
+		<dependency>
+			<groupId>com.paulhammant</groupId>
+			<artifactId>ngwebdriver</artifactId>
+			<version>1.1.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-htmlunit-driver</artifactId>
+			<version>2.52.0</version>
+		</dependency>
+		<!-- org.sikuli/sikuli-api -->
+		<dependency>
+			<groupId>org.sikuli</groupId>
+			<artifactId>sikuli-api</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.10.1</version>
+		</dependency>
+
+		<!-- rest-assured-io -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>3.3.0</version>
+		</dependency>
+		<!-- SQL SERVER JDBC DRIVER -->
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>7.2.1.jre8</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.fusesource.jansi/jansi -->
+
+	</dependencies>
+	<name>ROL</name>
+</project>
+
+

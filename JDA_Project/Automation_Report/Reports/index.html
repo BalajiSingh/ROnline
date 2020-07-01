@@ -1,0 +1,508 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>JDA Transformation</title>
+    <link rel="apple-touch-icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+    <link rel="shortcut icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+    <link href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/24cb10e/spark/css/style.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+            
+                
+            
+        
+</style></head><script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="test-view bdd-report standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+<div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Regression suite</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">Jun 29, 2020 12:35:24</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown">
+        <a id="nav-tag" class="dropdown-toggle" href="tag.html">
+          <span class="icon-holder">
+            <i class="fa fa-tag"></i>
+          </span>
+          <span class="title">Tags</span>
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a id="nav-ex" class="dropdown-toggle" href="exception.html">
+          <span class="icon-holder">
+            <i class="fa fa-bug"></i>
+          </span>
+          <span class="title">Exception</span>
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row">
+                        <div class="test-list">
+                            <div class="test-list-tools">
+                                <ul class="tools pull-left">
+                                    <li>
+                                        <a href="">
+                                            <span class="font-size-14">Tests</span>
+                                        </a>
+                                    </li> 
+                                </ul>
+                                <ul class="tools text-right">
+                                    <li class="user-profile dropdown dropdown-animated scale-left">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <i class="fa fa-exclamation-circle"></i>
+                                        </a>
+                                        <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+                                            <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+	                                        <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>
+	                                        
+	                                        
+	                                        
+	                                        <a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning pull-right"></span></a>
+	                                        <div class="dropdown-divider"></div>
+                                            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+                                        </ul>
+                                    </li>
+                                    <li class="user-profile dropdown dropdown-animated scale-left">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <i class="fa fa-tag"></i>
+                                        </a>
+                                        <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+                                                <a class="dropdown-item" href="#">@Regression_EMA</a>
+                                                <a class="dropdown-item" href="#">@UI33321</a>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="test-list-wrapper scrollable">
+                                <ul class="test-list-item">
+                                    <li class="test-item"  status="fail" test-id="1"
+                                            author=""
+                                            tag="@Regression_EMA"
+                                            device="">
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
+                                        </div>
+                                        <div class="open-test">
+                                            <div class="test-detail"> 
+                                                <p class="name">Regression Test Suite - Electolux Major Appliances (EMA) customer.</p> 
+                                                <p class="duration text-sm">0h 11m 41s+912ms</p> 
+                                                <span class="datetime">12:35:24 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="test-contents d-none">
+                                            <div class="detail-head">
+                                                <div class="p-v-10 d-inline-block"> 
+                                                    <div class="info">
+                                                        <h5 class="test-status text-fail">Regression Test Suite - Electolux Major Appliances (EMA) customer.</h5>
+                                                        <span class='badge badge-success'>06.29.2020 12:35:24</span>
+                                                        <span class='badge badge-danger'>06.29.2020 12:47:06</span>
+                                                        <span class='badge badge-default'>0h 11m 41s+912ms</span>
+                                                    </div>
+                                                    <div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> @Regression_EMA</span>
+                                                    </div>
+                                                    <div class="m-t-10 m-l-5">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+
+<div class="accordion mt-4">
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Create Shipment in ROL using lights out process and validate that it is created in TM.</div>
+				<div class="status-avatar float-left fail-bg">
+					<i class="fa fa-times text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse scenario_outline">
+						<div class="card-body l1">
+							<div class="card-header" role="tab">
+								<h5 class="card-title outline-child">
+									<div class="node">Create Shipment in ROL using lights out process and validate that it is created in TM.</div>
+									<div class="status-avatar float-left fail-bg">
+										<i class="fa fa-times text-white"></i>
+									</div>
+								</h5>
+							</div>
+							<div class="card-body collapse mt-3">
+									<div class="d-flex align-items-center justify-content-start asterisk" title="">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>InitializeWebDrive.before()</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start given" title="RyderEntryOnlineLoginTest.user_is_on_login_page()">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>Given User is on login page of ROL website</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start when" title="RyderEntryOnlineLoginTest.user_Enters_User_ID_Password_as_and_clicks_on_the_Login_button(String,String)">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>When User Enters User ID,Password in ROL as "mitulpatel","mitulpatel" and clicks on the Login button</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start then" title="RyderEntryOnlineLoginTest.user_should_be_on_ROL_HomePage()">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>Then User is on Ryder online Home page after successfull logon</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start when" title="RyderEntryOnlineHomePage.user_is_navigating_to_create_shipment_page()">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>When user is navigating to create shipment page</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start then" title="RyderEntryOnlineHomePage.user_should_navigate_to_create_shipment_page_successfully()">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>Then user should navigate to create shipment page successfully</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start when" title="RyderEntryOnlineHomePage.user_selects_the_customer_from_the_customer_drop_down(String)">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>When user selects the customer from the customer drop down "Electrolux Major Appliances AMQP30"</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start then" title="RyderEntryOnlineHomePage.user_should_be_able_view_pre_populated_origin_destination_addresses(String,String)">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>Then user should be able search origin "64-RDC-UWA", destination"72-RDC-UWA" addresses</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start when" title="RyderEntryOnlineHomePage.user_selects_pickupConvention_dropdown_value(String)">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>When user selects pickupConvention dropdown value "Will be available for pickup on"</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start and" title="RyderEntryOnlineHomePage.user_enters_future_date_for_pickUp()">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>And user enters future date for pickUp</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start when" title="RyderEntryOnlineHomePage.user_selects_deliverConvention_dropdown_value(String)">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>When user selects deliverConvention dropdown value "Must be delivered by"</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start then" title="RyderEntryOnlineHomePage.user_enters_future_week_date_for_delivery()">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>Then user enters future week date for delivery</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start then" title="RyderEntryOnlineHomePage.user_enter_customer_order_number()">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>Then user enter customer order number</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start when" title="RyderEntryOnlineHomePage.user_selects_OrderType_dropdown_value_as(String)">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>When user selects OrderType dropdown value as "Outbound"</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start when" title="RyderEntryOnlineHomePage.user_to_enter_shipment_line_items_electrolux_and_select(String,String,String,String)">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>When user to enter shipment line items electrolux "5","240336803","SPACER-HINGE (BLACK)" and select "Eaches"</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start then" title="RyderEntryOnlineHomePage.user_must_be_navigated_to_confirmation_page()">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>Then user must be navigated to confirmation page</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start and" title="RyderEntryOnlineHomePage.user_must_click_submit_button_on_confirmation_page()">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>And user must click submit button on confirmation page</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start then" title="RyderEntryOnlineHomePage.user_must_verify_the_Unique_Shipment_Number()">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>Then user must verify the Unique Shipment Number</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start when" title="RyderEntryOnlineHomePage.user_click_on_button_RyderEntrySummary()">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>When user click on button RyderEntrySummary</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start then" title="RyderEntryOnlineHomePage.user_select_status_value_from_dropdown_as(String)">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>Then user select status value from dropdown as "All"</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start then" title="RyderEntryOnlineHomePage.user_must_click_on_SEARCH_button_to_search_the_unieque_shipment_number()">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>Then user must click on SEARCH button to search the unique shipment number</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start then" title="RyderEntryOnlineHomePage.user_must_logoff_RyderEntry()">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>Then user must logoff RyderEntry</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start then" title="JdaTMLoginTest.user_must_login_to_new_jda_environment_successfully_using(String,String)">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>Then user must login to new jda environment successfully using "mpatel6","Ryder@123!1"</span>
+									</div>
+				<div class="details"></div>
+									<div class="d-flex align-items-center justify-content-start then" title="JdaTMHomeTest.click_on_shipment_processing_then_click_on_shipments_link_SearchbyUSN()">
+										<span class="alert-icon fail-bg">
+											<i class="fa fa-times text-white"></i>
+										</span>
+										<span>Then click on shipment processing then click on shipments link and Search shipment as per Unique Number</span>
+									</div>
+				<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.getText(Unknown Source)
+	at com.ryder.online.pages.pageactions.JDAHomePageActions.searchForShipmentIDByUSN(JDAHomePageActions.java:98)
+	at com.ryder.online.test.stepdefinition.JdaTMHomeTest.click_on_shipment_processing_then_click_on_shipments_link_SearchbyUSN(JdaTMHomeTest.java:61)
+	at ?.click on shipment processing then click on shipments link and Search shipment as per Unique Number(featurefile/EMA/EMA_ROL_Regression.feature:31)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[@title='Shipment ID']"}
+  (Session info: chrome=83.0.4103.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN80016311', ip: '10.89.96.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\balasing\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64727}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}
+Session ID: d48ffd63a7451e176d8b287941e84ab5
+*** Element info: {Using=xpath, value=//td[@title='Shipment ID']}
+	at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.getText(Unknown Source)
+	at com.ryder.online.pages.pageactions.JDAHomePageActions.searchForShipmentIDByUSN(JDAHomePageActions.java:98)
+	at com.ryder.online.test.stepdefinition.JdaTMHomeTest.click_on_shipment_processing_then_click_on_shipments_link_SearchbyUSN(JdaTMHomeTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:49)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:44)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:68)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</textarea>
+									<div class="d-flex align-items-center justify-content-start then" title="JdaTMHomeTest.Verify_ShipmentDetails_in_TM(String,String,String)">
+										<span class="alert-icon skip-bg">
+											<i class="fa fa-long-arrow-right text-white"></i>
+										</span>
+										<span>Then Verify that shipment is created for '"EMA"' customer, '"EMA1"' Division, and '"EMA5"' Logistic Group  in TM</span>
+									</div>
+				<div class="details">Step skipped</div>
+									<div class="d-flex align-items-center justify-content-start asterisk" title="">
+										<span class="alert-icon pass-bg">
+											<i class="fa fa-check text-white"></i>
+										</span>
+										<span>InitializeWebDrive.after(Scenario)</span>
+									</div>
+				<div class="details"></div>
+				<span class="badge badge-primary"><img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Automation_Report\Reports\Screenshots\embedded1.png' src='C:\Automation_Report\Reports\Screenshots\embedded1.png' data-src='C:\Automation_Report\Reports\Screenshots\embedded1.png'></span>
+							</div>
+						</div>
+				</div>
+	</div>
+</div>
+                                        </div>
+                                    </li>
+                                </ul>    
+                            </div>
+                        </div>
+                        <div class="test-content scrollable">
+                            <div class="test-content-tools">
+                                <ul>
+                                    <li>
+                                        <a class="back-to-test" href="javascript:void(0)">
+                                            <i class="fa fa-arrow-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="test-content-detail">
+                                <div class="detail-body"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/24cb10e/spark/js/script.js"></script>
+<script type="text/javascript">
+
+            
+                $(document).ready(function() {
+                    
+                });
+            
+        
+</script></body>
+</html>

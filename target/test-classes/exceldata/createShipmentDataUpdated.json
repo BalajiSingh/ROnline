@@ -1,0 +1,552 @@
+{
+	"idempotencyKey": null,
+	"tradingPartner": null,
+	"externalTimeStamp": null,
+	"customerNumber": "NGX",
+	"shipmentNumber": null,
+	"actionCode": null,
+	"externalShipmentNumber": "JV2019123101",
+	"userId": "asfulldomadv1",
+	"carrierAccountType": null,
+	"carrierAccountNumber": null,
+	"isReturn": null,
+	"returnReason": null,
+	"type": "MANUAL",
+	"logisticsGroupCode": null,
+	"divisionCode": null,
+	"status": "OPEN",
+	"commodityCode": null,
+	"totalAmount": null,
+	"discountAmount": null,
+	"chargedAmount": null,
+	"fuelAmount": null,
+	"mergeInTransitConsolidationCode": null,
+	"mergeInTransitConsolidationNum": null,
+	"memo": null,
+	"dates": {
+		"requestShipFrom": "2018-10-02T00:00:00",
+		"requestShipTo": null,
+		"requestDeliveryFrom": null,
+		"requestDeliveryTo": "2018-10-03T23:59:00",
+		"scheduledShipFrom": null,
+		"scheduledShipTo": null,
+		"scheduledDeliveryFrom": null,
+		"scheduledDeliveryTo": null,
+		"appointmentPickUp": null,
+		"appointmentDelivery": null,
+		"actualPickup": null,
+		"actualDelivery": null
+	},
+	"options": {
+		"isShipDirect": null,
+		"isUrgent": null,
+		"isHold": null,
+		"carrierScac": null,
+		"serviceCode": null,
+		"freightTerms": "PRE_PAID",
+		"incoTerms": null,
+		"consolidationClass": null,
+		"isHazmat": null,
+		"isWatchDesignated": null,
+		"isSpecialAttention": null
+	},
+	"measures": {
+		"length": null,
+		"width": null,
+		"height": null,
+		"dimensionUOM": null,
+		"weight": "25",
+		"weightUOM": "LB",
+		"volume": "6",
+		"volumeUOM": "CUFT",
+		"nominalWeight": null,
+		"tareWeight": null,
+		"totalSkids": "2",
+		"totalHandlingUnits": null,
+		"orderValue": null,
+		"declaredValue": null,
+		"currency": null,
+		"actualWeight": null,
+		"actualVolume": null,
+		"actualPieces": null,
+		"actualHandlingUnits": null
+	},
+	"equipment": {
+		"equipmentInitial": null,
+		"equipmentNumber": null,
+		"equipmentName": null,
+		"country": null,
+		"routeNumber": null,
+		"equipmentDescriptionCode": null,
+		"equipmentCode": null,
+		"weightUOM": null,
+		"weight": null,
+		"volumeUOM": null,
+		"volume": null,
+		"temperatureUOM": null,
+		"minimumTemperature": null,
+		"maximumTemperature": null,
+		"dimUOM": null,
+		"length": null,
+		"width": null,
+		"height": null
+	},
+	"locations": {
+		"location": [{
+			"useCode": "19",
+			"locationCode": "RL840126061",
+			"locationName": "NORTHROP GRUMMAN CORPORATION",
+			"locationNameAddtl": null,
+			"isPickupAppointmentRequired": null,
+			"isDeliveryAppointmentRequired": null,
+			"isResidential": null,
+			"externalLocationType": null,
+			"memo": null,
+			"businessHours": null,
+			"address": {
+				"address": "500 NORTH DOUGLAS STREET",
+				"address2": "",
+				"city": "EL SEGUNDO",
+				"sau": "CA",
+				"country": "USA",
+				"postalCode": "90245",
+				"latitude": null,
+				"longitude": null,
+				"timezone": null
+			},
+			"contacts": {
+				"contact": [{
+					"contactType": null,
+					"primaryLanguage": null,
+					"firstName": "ALESIA WILSON",
+					"lastName": null,
+					"phone": "310-332-8400",
+					"alternatePhone": null,
+					"faxNumber": null,
+					"email": null,
+					"isPrimaryContact": null
+				}]
+			},
+			"chargeOverrides": null
+		}, {
+			"useCode": "20",
+			"locationCode": "RL840126069",
+			"locationName": "NORTHROP GRUMMAN",
+			"locationNameAddtl": null,
+			"isPickupAppointmentRequired": null,
+			"isDeliveryAppointmentRequired": null,
+			"isResidential": null,
+			"externalLocationType": null,
+			"memo": null,
+			"businessHours": null,
+			"address": {
+				"address": "8319 AVTECH PARKWAY",
+				"address2": "",
+				"city": "MOSS POINT",
+				"sau": "MS",
+				"country": "USA",
+				"postalCode": "39563",
+				"latitude": null,
+				"longitude": null,
+				"timezone": null
+			},
+			"contacts": {
+				"contact": [{
+					"contactType": null,
+					"primaryLanguage": null,
+					"firstName": "KYLE GRAHAM",
+					"lastName": null,
+					"phone": "584-666-9985",
+					"alternatePhone": null,
+					"faxNumber": null,
+					"email": null,
+					"isPrimaryContact": null
+				}]
+			},
+			"chargeOverrides": null
+		}]
+	},
+	"referenceNumbers": {
+		"reference": [{
+			"qualifier": "SID",
+			"value": "asfulldomadv1"
+		}, {
+			"qualifier": "API",
+			"value": "Y"
+		}, {
+			"qualifier": "CCNM",
+			"value": "ST43DA"
+		}, {
+			"qualifier": "HAZ",
+			"value": "N"
+		}, {
+			"qualifier": "PE",
+			"value": "SEG"
+		}, {
+			"qualifier": "SEC",
+			"value": "AS"
+		}, {
+			"qualifier": "SLI",
+			"value": "30"
+		}, {
+			"qualifier": "UI",
+			"value": "jv00065409"
+		}, {
+			"qualifier": "9V",
+			"value": "PRE_PAID"
+		}, {
+			"qualifier": "12",
+			"value": "Indirect"
+		}, {
+			"qualifier": "GL",
+			"value": "5300083"
+		}]
+	},
+	"handlingUnits": {
+		"handlingUnit": [{
+			"handlingUnitId": null,
+			"handlingUnitTypeNumber": "CTN",
+			"isPalletOrSkid": null,
+			"description": null,
+			"externalHandlingUnitNumber": "1",
+			"quantity": "1",
+			"stackCode": null,
+			"stackFactor": null,
+			"stackGroup": null,
+			"isHazmat": null,
+			"measures": {
+				"length": "24",
+				"width": "18",
+				"height": "12",
+				"dimensionUOM": "IN",
+				"weight": "10",
+				"weightUOM": "LB",
+				"volume": "3",
+				"volumeUOM": "CU FT",
+				"nominalWeight": null,
+				"tareWeight": null,
+				"totalSkids": null,
+				"totalHandlingUnits": null,
+				"orderValue": null,
+				"declaredValue": null,
+				"currency": null,
+				"actualWeight": null,
+				"actualVolume": null,
+				"actualPieces": null,
+				"actualHandlingUnits": null
+			},
+			"hazmatDetails": [],
+			"freightClasses": {
+				"freightClass": [{
+					"nominalWeight": null,
+					"code": "85"
+				}]
+			},
+			"items": {
+				"item": [{
+					"itemId": null,
+					"externalItemNumber": null,
+					"description": "FLUKE 179 DIGITAL MULTIMETER",
+					"quantity": "1",
+					"quantityUOM": "EA",
+					"sku": null,
+					"measures": {
+						"length": null,
+						"width": null,
+						"height": null,
+						"dimensionUOM": "IN",
+						"weight": null,
+						"weightUOM": "LB",
+						"volume": null,
+						"volumeUOM": null,
+						"nominalWeight": null,
+						"tareWeight": null,
+						"totalSkids": null,
+						"totalHandlingUnits": null,
+						"orderValue": null,
+						"declaredValue": null,
+						"currency": null,
+						"actualWeight": null,
+						"actualVolume": null,
+						"actualPieces": null,
+						"actualHandlingUnits": null
+					},
+					"freightClass": null,
+					"nmfcCode": null,
+					"isHazmat": null,
+					"referenceNumbers": {
+						"reference": [{
+							"qualifier": "DSLN",
+							"value": "000010"
+						}, {
+							"qualifier": "DSN",
+							"value": "0080169564"
+						}]
+					},
+					"hazmatDetails": []
+				}, {
+					"itemId": null,
+					"externalItemNumber": null,
+					"description": "OHAUS SCALE",
+					"quantity": "1",
+					"quantityUOM": "EA",
+					"sku": null,
+					"measures": {
+						"length": null,
+						"width": null,
+						"height": null,
+						"dimensionUOM": "IN",
+						"weight": null,
+						"weightUOM": "LB",
+						"volume": null,
+						"volumeUOM": null,
+						"nominalWeight": null,
+						"tareWeight": null,
+						"totalSkids": null,
+						"totalHandlingUnits": null,
+						"orderValue": null,
+						"declaredValue": null,
+						"currency": null,
+						"actualWeight": null,
+						"actualVolume": null,
+						"actualPieces": null,
+						"actualHandlingUnits": null
+					},
+					"freightClass": null,
+					"nmfcCode": null,
+					"isHazmat": null,
+					"referenceNumbers": {
+						"reference": [{
+							"qualifier": "DSLN",
+							"value": "000020"
+						}, {
+							"qualifier": "DSN",
+							"value": "0080169564"
+						}]
+					},
+					"hazmatDetails": []
+				}]
+			},
+			"referenceNumbers": {
+				"reference": [{
+					"qualifier": "PSN",
+					"value": "65409"
+				}]
+			},
+			"documentMappings": null
+		}, {
+			"handlingUnitId": null,
+			"handlingUnitTypeNumber": "CTN",
+			"isPalletOrSkid": null,
+			"description": null,
+			"externalHandlingUnitNumber": "2",
+			"quantity": "1",
+			"stackCode": null,
+			"stackFactor": null,
+			"stackGroup": null,
+			"isHazmat": null,
+			"measures": {
+				"length": "24",
+				"width": "18",
+				"height": "12",
+				"dimensionUOM": "IN",
+				"weight": "15",
+				"weightUOM": "LB",
+				"volume": "3",
+				"volumeUOM": "CU FT",
+				"nominalWeight": null,
+				"tareWeight": null,
+				"totalSkids": null,
+				"totalHandlingUnits": null,
+				"orderValue": null,
+				"declaredValue": null,
+				"currency": null,
+				"actualWeight": null,
+				"actualVolume": null,
+				"actualPieces": null,
+				"actualHandlingUnits": null
+			},
+			"hazmatDetails": [],
+			"freightClasses": {
+				"freightClass": [{
+					"nominalWeight": null,
+					"code": "85"
+				}]
+			},
+			"items": {
+				"item": [{
+					"itemId": null,
+					"externalItemNumber": null,
+					"description": "OMEGA ENGINEERING GAUGE",
+					"quantity": "1",
+					"quantityUOM": "EA",
+					"sku": null,
+					"measures": {
+						"length": null,
+						"width": null,
+						"height": null,
+						"dimensionUOM": "IN",
+						"weight": null,
+						"weightUOM": "LB",
+						"volume": null,
+						"volumeUOM": null,
+						"nominalWeight": null,
+						"tareWeight": null,
+						"totalSkids": null,
+						"totalHandlingUnits": null,
+						"orderValue": null,
+						"declaredValue": null,
+						"currency": null,
+						"actualWeight": null,
+						"actualVolume": null,
+						"actualPieces": null,
+						"actualHandlingUnits": null
+					},
+					"freightClass": null,
+					"nmfcCode": null,
+					"isHazmat": null,
+					"referenceNumbers": {
+						"reference": [{
+							"qualifier": "DSLN",
+							"value": "000030"
+						}, {
+							"qualifier": "DSN",
+							"value": "0080169564"
+						}]
+					},
+					"hazmatDetails": []
+				}, {
+					"itemId": null,
+					"externalItemNumber": null,
+					"description": "OMEGA ENGINEERING TEMP TOOL",
+					"quantity": "1",
+					"quantityUOM": "EA",
+					"sku": null,
+					"measures": {
+						"length": null,
+						"width": null,
+						"height": null,
+						"dimensionUOM": "IN",
+						"weight": null,
+						"weightUOM": "LB",
+						"volume": null,
+						"volumeUOM": null,
+						"nominalWeight": null,
+						"tareWeight": null,
+						"totalSkids": null,
+						"totalHandlingUnits": null,
+						"orderValue": null,
+						"declaredValue": null,
+						"currency": null,
+						"actualWeight": null,
+						"actualVolume": null,
+						"actualPieces": null,
+						"actualHandlingUnits": null
+					},
+					"freightClass": null,
+					"nmfcCode": null,
+					"isHazmat": null,
+					"referenceNumbers": {
+						"reference": [{
+							"qualifier": "DSLN",
+							"value": "000040"
+						}, {
+							"qualifier": "DSN",
+							"value": "0080169564"
+						}]
+					},
+					"hazmatDetails": []
+				}]
+			},
+			"referenceNumbers": {
+				"reference": [{
+					"qualifier": "PSN",
+					"value": "65409"
+				}]
+			},
+			"documentMappings": null
+		}]
+	},
+	"throughPoints": null,
+	"chargeOverrides": null,
+	"legs": null,
+	"events": null,
+	"rates": {
+		"rate": [{
+			"quoteId": null,
+			"carrierNum": "FDE",
+			"rank": 1,
+			"rateSource": "PRA",
+			"transportMode": "PARCEL",
+			"totalCharge": "120.9800",
+			"currencyCd": null,
+			"equipment": null,
+			"serviceCode": "1AR",
+			"scheduledPickupFromDate": "2018-10-02T00:00:00",
+			"scheduledPickupToDate": "",
+			"scheduledDeliveryFromDate": "",
+			"scheduledDeliveryToDate": "2018-10-03T12:00:00",
+			"accountNum": "510159020",
+			"selected": false,
+			"validForDate": true,
+			"validForSelectedService": true,
+			"ratePurpose": "EXECUTION",
+			"serviceOptions": [],
+			"equipmentOptions": [],
+			"requestedPickupFromDate": "",
+			"requestedPickupToDate": "",
+			"requestedDeliveryFromDate": "",
+			"requestedDeliveryToDate": "",
+			"transitDays": 1
+		}, {
+			"quoteId": null,
+			"carrierNum": "SEKW",
+			"rank": 12,
+			"rateSource": "TM",
+			"transportMode": null,
+			"totalCharge": "75.0000",
+			"currencyCd": "USD",
+			"equipment": {
+				"equipmentInitial": null,
+				"equipmentNumber": null,
+				"equipmentName": null,
+				"country": null,
+				"routeNumber": null,
+				"equipmentDescriptionCode": null,
+				"equipmentCode": "AIR",
+				"weightUOM": null,
+				"weight": null,
+				"volumeUOM": null,
+				"volume": null,
+				"temperatureUOM": null,
+				"minimumTemperature": null,
+				"maximumTemperature": null,
+				"dimUOM": null,
+				"length": null,
+				"width": null,
+				"height": null
+			},
+			"serviceCode": "3PR",
+			"scheduledPickupFromDate": "2018-10-02T16:30:00",
+			"scheduledPickupToDate": "2018-10-02T16:30:00",
+			"scheduledDeliveryFromDate": "2018-10-05T08:00:00",
+			"scheduledDeliveryToDate": "2018-10-05T08:00:00",
+			"accountNum": null,
+			"selected": true,
+			"validForDate": false,
+			"validForSelectedService": false,
+			"ratePurpose": "REPORT",
+			"serviceOptions": [],
+			"equipmentOptions": [],
+			"requestedPickupFromDate": "2018-10-02T00:01:00",
+			"requestedPickupToDate": "2018-10-02T23:58:00",
+			"requestedDeliveryFromDate": "2018-10-03T00:02:00",
+			"requestedDeliveryToDate": "2018-10-16T23:59:00",
+			"transitDays": 3
+		}]
+	},
+	"viewConfigs": null,
+	"documentMappings": {
+		"documentMap": []
+	}
+}

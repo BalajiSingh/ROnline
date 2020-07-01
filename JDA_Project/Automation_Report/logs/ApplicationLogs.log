@@ -1,0 +1,341 @@
+2020-06-26 14:28:50 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-26 14:48:52 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-26 14:54:54 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-26 14:57:55 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-26 15:28:44 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-26 15:31:24 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-26 15:31:29 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-26 15:31:47 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (aa2c74c95ccc0682888914026ef877d3)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-26 15:31:58 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (aa2c74c95ccc0682888914026ef877d3)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-26 15:32:11 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (aa2c74c95ccc0682888914026ef877d3)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-26 15:32:11 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (aa2c74c95ccc0682888914026ef877d3)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-26 15:32:11 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (aa2c74c95ccc0682888914026ef877d3)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-26 15:32:12 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (aa2c74c95ccc0682888914026ef877d3)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-26 15:32:19 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (aa2c74c95ccc0682888914026ef877d3)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-26 15:32:20 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-26 15:32:20 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (aa2c74c95ccc0682888914026ef877d3)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-26 15:32:33 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (aa2c74c95ccc0682888914026ef877d3)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-26 15:35:23 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-26 15:35:34 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_top'
+2020-06-26 15:37:04 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-26 15:37:04 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-26 15:38:35 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: navFrame'
+2020-06-26 15:40:08 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-26 15:40:08 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-26 15:41:38 [INFO ] [BrowserHelper] - [switchToFrame] org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot find context with specified id"}
+  (Session info: chrome=83.0.4103.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN80016311', ip: '10.90.21.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\balasing\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56147}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}
+Session ID: aa2c74c95ccc0682888914026ef877d3
+*** Element info: {Using=id, value=resultFrame}
+2020-06-26 15:44:12 [INFO ] [GenericHelper] - [takeScreenShot] C:\qa_automation1\Automation_Report\Reports\Screenshots\_2020-06-26\Create_Shipment_in_ROL_using_lights_out_process_and_validate_that_it_is_created_in_TM..jpg
+2020-06-26 15:44:13 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-06-26 15:44:13 [INFO ] [InitializeWebDrive] - [after] 
+2020-06-26 15:44:13 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-26 15:56:15 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-26 15:56:18 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-26 15:56:34 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b3467992bc24bab5842453c99c625116)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-26 15:56:45 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b3467992bc24bab5842453c99c625116)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-26 15:56:58 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b3467992bc24bab5842453c99c625116)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-26 15:56:59 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b3467992bc24bab5842453c99c625116)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-26 15:56:59 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b3467992bc24bab5842453c99c625116)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-26 15:57:00 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b3467992bc24bab5842453c99c625116)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-26 15:57:06 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b3467992bc24bab5842453c99c625116)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-26 15:57:07 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-26 15:57:07 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (b3467992bc24bab5842453c99c625116)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-26 15:57:18 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (b3467992bc24bab5842453c99c625116)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-26 15:59:24 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-26 15:59:35 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_top'
+2020-06-26 16:01:06 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-26 16:01:06 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-26 16:02:36 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: navFrame'
+2020-06-26 16:05:38 [INFO ] [GenericHelper] - [takeScreenShot] C:\qa_automation1\Automation_Report\Reports\Screenshots\_2020-06-26\Create_Shipment_in_ROL_using_lights_out_process_and_validate_that_it_is_created_in_TM..jpg
+2020-06-26 16:05:39 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-06-26 16:05:39 [INFO ] [InitializeWebDrive] - [after] 
+2020-06-26 16:05:39 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-26 17:14:18 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-26 17:14:21 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-26 17:14:37 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (28db8ffae6436db79a277fa1d00b2e3f)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-26 17:14:48 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (28db8ffae6436db79a277fa1d00b2e3f)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-26 17:15:02 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (28db8ffae6436db79a277fa1d00b2e3f)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-26 17:15:02 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (28db8ffae6436db79a277fa1d00b2e3f)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-26 17:15:02 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (28db8ffae6436db79a277fa1d00b2e3f)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-26 17:15:02 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (28db8ffae6436db79a277fa1d00b2e3f)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-26 17:15:09 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (28db8ffae6436db79a277fa1d00b2e3f)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-26 17:15:10 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-26 17:15:10 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (28db8ffae6436db79a277fa1d00b2e3f)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-26 17:15:24 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (28db8ffae6436db79a277fa1d00b2e3f)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-26 17:24:59 [INFO ] [GenericHelper] - [takeScreenShot] C:\qa_automation1\Automation_Report\Reports\Screenshots\_2020-06-26\Create_Shipment_in_ROL_using_lights_out_process_and_validate_that_it_is_created_in_TM..jpg
+2020-06-26 17:25:04 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-06-26 17:25:04 [INFO ] [InitializeWebDrive] - [after] 
+2020-06-26 17:25:05 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-26 17:53:19 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-26 17:53:23 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-26 17:53:39 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (720e4f5f504562444cf5e9bc4d91db1c)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-26 17:53:50 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (720e4f5f504562444cf5e9bc4d91db1c)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-26 17:54:04 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (720e4f5f504562444cf5e9bc4d91db1c)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-26 17:54:04 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (720e4f5f504562444cf5e9bc4d91db1c)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-26 17:54:04 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (720e4f5f504562444cf5e9bc4d91db1c)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-26 17:54:05 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (720e4f5f504562444cf5e9bc4d91db1c)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-26 17:54:11 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (720e4f5f504562444cf5e9bc4d91db1c)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-26 17:54:12 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-26 17:54:12 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (720e4f5f504562444cf5e9bc4d91db1c)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-26 17:54:23 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (720e4f5f504562444cf5e9bc4d91db1c)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-26 18:04:05 [ERROR] [GenericHelper] - [takeScreenshot] org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN80016311', ip: '10.90.21.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\balasing\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64118}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}
+Session ID: 720e4f5f504562444cf5e9bc4d91db1c
+2020-06-26 18:04:05 [ERROR] [InitializeWebDrive] - [tearDownDriver] org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN80016311', ip: '10.90.21.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\balasing\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64118}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}
+Session ID: 720e4f5f504562444cf5e9bc4d91db1c
+2020-06-26 18:04:05 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-27 11:14:16 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-27 11:14:20 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-27 11:14:48 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (bab381aa2e7a1f01055c4cf491a8842e)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-27 11:14:59 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (bab381aa2e7a1f01055c4cf491a8842e)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-27 11:15:13 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (bab381aa2e7a1f01055c4cf491a8842e)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-27 11:15:13 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (bab381aa2e7a1f01055c4cf491a8842e)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-27 11:15:13 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (bab381aa2e7a1f01055c4cf491a8842e)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-27 11:15:14 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (bab381aa2e7a1f01055c4cf491a8842e)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-27 11:15:20 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (bab381aa2e7a1f01055c4cf491a8842e)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-27 11:15:21 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-27 11:15:21 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (bab381aa2e7a1f01055c4cf491a8842e)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-27 11:15:34 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (bab381aa2e7a1f01055c4cf491a8842e)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-27 11:16:55 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 11:17:07 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_top'
+2020-06-27 11:18:38 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 11:18:38 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 11:20:08 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: navFrame'
+2020-06-27 11:21:40 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 11:21:40 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 11:23:10 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: resultFrame'
+2020-06-27 11:26:17 [INFO ] [GenericHelper] - [takeScreenShot] C:\qa_automation1\Automation_Report\Reports\Screenshots\_2020-06-27\Create_Shipment_in_ROL_using_lights_out_process_and_validate_that_it_is_created_in_TM..jpg
+2020-06-27 11:26:18 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-06-27 11:26:18 [INFO ] [InitializeWebDrive] - [after] 
+2020-06-27 11:26:18 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-27 11:31:57 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-27 11:32:00 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-27 11:32:16 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (03b46027d29177cb9e6dff64693e6960)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-27 11:32:27 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (03b46027d29177cb9e6dff64693e6960)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-27 11:32:40 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (03b46027d29177cb9e6dff64693e6960)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-27 11:32:41 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (03b46027d29177cb9e6dff64693e6960)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-27 11:32:41 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (03b46027d29177cb9e6dff64693e6960)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-27 11:32:41 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (03b46027d29177cb9e6dff64693e6960)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-27 11:32:47 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (03b46027d29177cb9e6dff64693e6960)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-27 11:32:48 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-27 11:32:48 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (03b46027d29177cb9e6dff64693e6960)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-27 11:33:00 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (03b46027d29177cb9e6dff64693e6960)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-27 11:33:35 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 11:33:46 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_top'
+2020-06-27 11:35:47 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 11:35:47 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 11:37:18 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: navFrame'
+2020-06-27 11:40:20 [INFO ] [GenericHelper] - [takeScreenShot] C:\qa_automation1\Automation_Report\Reports\Screenshots\_2020-06-27\Create_Shipment_in_ROL_using_lights_out_process_and_validate_that_it_is_created_in_TM..jpg
+2020-06-27 11:40:21 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-06-27 11:40:21 [INFO ] [InitializeWebDrive] - [after] 
+2020-06-27 11:40:21 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-27 13:58:07 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-27 13:58:11 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-27 13:58:29 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (c939cb88b5d692b5c47675f3c427b02a)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-27 13:58:40 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (c939cb88b5d692b5c47675f3c427b02a)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-27 13:58:53 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (c939cb88b5d692b5c47675f3c427b02a)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-27 13:58:53 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (c939cb88b5d692b5c47675f3c427b02a)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-27 13:58:53 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (c939cb88b5d692b5c47675f3c427b02a)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-27 13:58:54 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (c939cb88b5d692b5c47675f3c427b02a)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-27 13:59:00 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (c939cb88b5d692b5c47675f3c427b02a)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-27 13:59:01 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-27 13:59:01 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (c939cb88b5d692b5c47675f3c427b02a)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-27 13:59:12 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (c939cb88b5d692b5c47675f3c427b02a)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-27 14:00:32 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 14:00:43 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_top'
+2020-06-27 14:02:14 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 14:02:14 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 14:03:44 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: navFrame'
+2020-06-27 14:07:02 [INFO ] [GenericHelper] - [takeScreenShot] C:\qa_automation1\Automation_Report\Reports\Screenshots\_2020-06-27\Create_Shipment_in_ROL_using_lights_out_process_and_validate_that_it_is_created_in_TM..jpg
+2020-06-27 14:07:03 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-06-27 14:07:03 [INFO ] [InitializeWebDrive] - [after] 
+2020-06-27 14:07:03 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-27 15:40:38 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-27 15:43:13 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-27 15:43:17 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-27 15:43:32 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (e5f968ce2cdef61eb0af870cf5c6f2af)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-27 15:43:42 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (e5f968ce2cdef61eb0af870cf5c6f2af)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-27 15:43:56 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (e5f968ce2cdef61eb0af870cf5c6f2af)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-27 15:43:56 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (e5f968ce2cdef61eb0af870cf5c6f2af)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-27 15:43:56 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (e5f968ce2cdef61eb0af870cf5c6f2af)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-27 15:43:57 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (e5f968ce2cdef61eb0af870cf5c6f2af)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-27 15:44:03 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (e5f968ce2cdef61eb0af870cf5c6f2af)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-27 15:44:04 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-27 15:44:04 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (e5f968ce2cdef61eb0af870cf5c6f2af)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-27 15:44:15 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (e5f968ce2cdef61eb0af870cf5c6f2af)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-27 15:44:40 [INFO ] [GenericHelper] - [takeScreenShot] C:\qa_automation1\Automation_Report\Reports\Screenshots\_2020-06-27\Create_Shipment_in_ROL_using_lights_out_process_and_validate_that_it_is_created_in_TM..jpg
+2020-06-27 15:44:45 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-06-27 15:44:45 [INFO ] [InitializeWebDrive] - [after] 
+2020-06-27 15:44:45 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-27 15:46:00 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-27 15:46:04 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-27 15:46:21 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b31b233eaf6ce82606958fb17e727e93)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-27 15:46:31 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b31b233eaf6ce82606958fb17e727e93)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-27 15:46:45 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b31b233eaf6ce82606958fb17e727e93)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-27 15:46:45 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b31b233eaf6ce82606958fb17e727e93)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-27 15:46:45 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b31b233eaf6ce82606958fb17e727e93)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-27 15:46:46 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b31b233eaf6ce82606958fb17e727e93)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-27 15:46:52 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (b31b233eaf6ce82606958fb17e727e93)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-27 15:46:53 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-27 15:46:53 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (b31b233eaf6ce82606958fb17e727e93)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-27 15:47:07 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (b31b233eaf6ce82606958fb17e727e93)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-27 15:48:49 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 15:49:00 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_top'
+2020-06-27 15:50:31 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 15:50:31 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 15:52:01 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: navFrame'
+2020-06-27 15:53:45 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 15:53:45 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 15:57:13 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-27 15:57:16 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-27 15:57:33 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (eaee39ce0dc8bf43796a2ce04e14f2fb)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-27 15:57:44 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (eaee39ce0dc8bf43796a2ce04e14f2fb)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-27 15:57:57 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (eaee39ce0dc8bf43796a2ce04e14f2fb)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-27 15:57:57 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (eaee39ce0dc8bf43796a2ce04e14f2fb)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-27 15:57:58 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (eaee39ce0dc8bf43796a2ce04e14f2fb)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-27 15:57:58 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (eaee39ce0dc8bf43796a2ce04e14f2fb)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-27 15:58:04 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (eaee39ce0dc8bf43796a2ce04e14f2fb)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-27 15:58:05 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-27 15:58:05 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (eaee39ce0dc8bf43796a2ce04e14f2fb)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-27 15:58:17 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (eaee39ce0dc8bf43796a2ce04e14f2fb)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-27 15:59:59 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 16:00:09 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_top'
+2020-06-27 16:01:44 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 16:01:44 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 16:03:14 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: navFrame'
+2020-06-27 16:04:48 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 16:04:48 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 16:06:18 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: resultFrame'
+2020-06-27 16:09:24 [INFO ] [GenericHelper] - [takeScreenShot] C:\qa_automation1\Automation_Report\Reports\Screenshots\_2020-06-27\Create_Shipment_in_ROL_using_lights_out_process_and_validate_that_it_is_created_in_TM..jpg
+2020-06-27 16:09:25 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-06-27 16:09:25 [INFO ] [InitializeWebDrive] - [after] 
+2020-06-27 16:09:25 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-27 16:21:28 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-27 16:21:31 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-27 16:21:57 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (5377c209dcf9d92ee467e8a3c09f40b5)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-27 16:22:08 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (5377c209dcf9d92ee467e8a3c09f40b5)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-27 16:22:22 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (5377c209dcf9d92ee467e8a3c09f40b5)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-27 16:22:22 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (5377c209dcf9d92ee467e8a3c09f40b5)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-27 16:22:23 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (5377c209dcf9d92ee467e8a3c09f40b5)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-27 16:22:23 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (5377c209dcf9d92ee467e8a3c09f40b5)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-27 16:22:30 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (5377c209dcf9d92ee467e8a3c09f40b5)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-27 16:22:31 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-27 16:22:31 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (5377c209dcf9d92ee467e8a3c09f40b5)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-27 16:22:43 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (5377c209dcf9d92ee467e8a3c09f40b5)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-27 16:23:42 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 16:23:52 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_top'
+2020-06-27 16:25:27 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 16:25:27 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 16:26:57 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: navFrame'
+2020-06-27 16:28:31 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 16:28:31 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 16:30:02 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: resultFrame'
+2020-06-27 16:33:08 [INFO ] [GenericHelper] - [takeScreenShot] C:\qa_automation1\Automation_Report\Reports\Screenshots\_2020-06-27\Create_Shipment_in_ROL_using_lights_out_process_and_validate_that_it_is_created_in_TM..jpg
+2020-06-27 16:33:10 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-06-27 16:33:10 [INFO ] [InitializeWebDrive] - [after] 
+2020-06-27 16:33:10 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-27 16:39:22 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-27 16:39:26 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-27 16:41:14 [INFO ] [RyderEntryOnlineHomePageActions] - [navigate_To_CreateShipment] Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (ae1e1a4334b63a041204d5224079c162)] -> xpath: (//a[text()='Shipment'])[1]] (tried for 90 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN80016311', ip: '10.90.17.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\balasing\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49749}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}
+Session ID: ae1e1a4334b63a041204d5224079c162
+2020-06-27 16:41:14 [INFO ] [RyderEntryOnlineHomePageActions] - [navigate_To_CreateShipment] navigation to create shipment page is not successfull
+2020-06-27 16:41:15 [INFO ] [GenericHelper] - [takeScreenShot] C:\qa_automation1\Automation_Report\Reports\Screenshots\_2020-06-27\Create_Shipment_in_ROL_using_lights_out_process_and_validate_that_it_is_created_in_TM..jpg
+2020-06-27 16:41:20 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-06-27 16:41:20 [INFO ] [InitializeWebDrive] - [after] 
+2020-06-27 16:41:20 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-27 22:02:36 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-27 22:02:40 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-27 22:02:55 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (ce198ecf2524dc0d4f335a3c9194e9a1)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-27 22:03:06 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (ce198ecf2524dc0d4f335a3c9194e9a1)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-27 22:03:19 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (ce198ecf2524dc0d4f335a3c9194e9a1)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-27 22:03:19 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (ce198ecf2524dc0d4f335a3c9194e9a1)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-27 22:03:19 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (ce198ecf2524dc0d4f335a3c9194e9a1)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-27 22:03:20 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (ce198ecf2524dc0d4f335a3c9194e9a1)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-27 22:03:26 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (ce198ecf2524dc0d4f335a3c9194e9a1)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-27 22:03:27 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-27 22:03:27 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (ce198ecf2524dc0d4f335a3c9194e9a1)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-27 22:03:38 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (ce198ecf2524dc0d4f335a3c9194e9a1)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-27 22:04:58 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 22:05:08 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_top'
+2020-06-27 22:06:43 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 22:06:43 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 22:08:13 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: navFrame'
+2020-06-27 22:09:47 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 22:09:47 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 22:11:17 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: resultFrame'
+2020-06-27 22:12:51 [INFO ] [TransportationManagerHomePageActions] - [searchForShipmentIDByUSN] shipment has been searched successfully
+2020-06-27 22:12:52 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-06-27 22:12:52 [INFO ] [InitializeWebDrive] - [after] 
+2020-06-27 22:12:52 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-27 22:23:54 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-27 22:23:58 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-27 22:24:15 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (2129446b892cc27966cd8e8b5a6abd74)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-27 22:24:26 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (2129446b892cc27966cd8e8b5a6abd74)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-27 22:24:39 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (2129446b892cc27966cd8e8b5a6abd74)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-27 22:24:39 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (2129446b892cc27966cd8e8b5a6abd74)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-27 22:24:39 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (2129446b892cc27966cd8e8b5a6abd74)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-27 22:24:40 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (2129446b892cc27966cd8e8b5a6abd74)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-27 22:24:46 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (2129446b892cc27966cd8e8b5a6abd74)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-27 22:24:47 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-27 22:24:47 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (2129446b892cc27966cd8e8b5a6abd74)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-27 22:24:58 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (2129446b892cc27966cd8e8b5a6abd74)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-27 22:25:55 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 22:26:05 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_top'
+2020-06-27 22:27:40 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 22:27:40 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 22:29:10 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: navFrame'
+2020-06-27 22:30:46 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-27 22:30:46 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-27 22:32:17 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: resultFrame'
+2020-06-27 22:33:59 [INFO ] [TransportationManagerHomePageActions] - [searchForShipmentIDByUSN] shipment has been searched successfully
+2020-06-27 22:34:01 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-06-27 22:34:01 [INFO ] [InitializeWebDrive] - [after] 
+2020-06-27 22:34:01 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated
+2020-06-29 12:35:24 [INFO ] [InitializeWebDrive] - [standAloneStepUp] CHROME
+2020-06-29 12:35:27 [INFO ] [InitializeWebDrive] - [before] CHROME
+2020-06-29 12:35:54 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (d48ffd63a7451e176d8b287941e84ab5)] -> xpath: //select[@name='organization']] Value : Electrolux Major Appliances AMQP30
+2020-06-29 12:36:06 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (d48ffd63a7451e176d8b287941e84ab5)] -> xpath: //select[@id='originTmzID']] Value : CT
+2020-06-29 12:36:19 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (d48ffd63a7451e176d8b287941e84ab5)] -> xpath: //select[@id='destTmzID']] Value : CT
+2020-06-29 12:36:19 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (d48ffd63a7451e176d8b287941e84ab5)] -> xpath: //select[@id='pickupConvention']] Value : Will be available for pickup on
+2020-06-29 12:36:19 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (d48ffd63a7451e176d8b287941e84ab5)] -> xpath: //select[@id='deliveryConvention']] Value : Must be delivered by
+2020-06-29 12:36:20 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (d48ffd63a7451e176d8b287941e84ab5)] -> xpath: (//label[text()='Order Type:']//following::td//select)[1]] Value : Outbound
+2020-06-29 12:36:27 [INFO ] [DropDownHelper] - [SelectUsingVisibleValue] Locator : [[ChromeDriver: chrome on XP (d48ffd63a7451e176d8b287941e84ab5)] -> xpath: //select[@name='manualEntryCTYP']] Value : Eaches
+2020-06-29 12:36:27 [INFO ] [CheckBoxOrRadioButtonHelper] - [isIselected] false
+2020-06-29 12:36:27 [INFO ] [CheckBoxOrRadioButtonHelper] - [selectCheckBox] [[ChromeDriver: chrome on XP (d48ffd63a7451e176d8b287941e84ab5)] -> xpath: //td[@class='dataRowOdd']//input[@type='checkbox']]
+2020-06-29 12:36:40 [INFO ] [DropDownHelper] - [SelectUsingValue] WebElement : [[ChromeDriver: chrome on XP (d48ffd63a7451e176d8b287941e84ab5)] -> xpath: //select[@id='pStatus']] Value : All
+2020-06-29 12:37:40 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-29 12:37:52 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_top'
+2020-06-29 12:39:27 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-29 12:39:27 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-29 12:40:57 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: navFrame'
+2020-06-29 12:42:30 [INFO ] [BrowserHelper] - [switchToDefaultFrame] switched to default frame
+2020-06-29 12:42:30 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.name: i2ui_shell_content'
+2020-06-29 12:44:01 [INFO ] [BrowserHelper] - [switchToFrame] Proxy element for: AjaxElementLocator 'By.id: resultFrame'
+2020-06-29 12:47:06 [INFO ] [GenericHelper] - [takeScreenShot] C:\qa_automation1\Automation_Report\Reports\Screenshots\_2020-06-29\Create_Shipment_in_ROL_using_lights_out_process_and_validate_that_it_is_created_in_TM..jpg
+2020-06-29 12:47:07 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-06-29 12:47:07 [INFO ] [InitializeWebDrive] - [after] 
+2020-06-29 12:47:07 [INFO ] [ReporterUtil] - [getCurrentDateTimeAsString] Unique name generated

@@ -1,0 +1,27 @@
+[{
+    "email": "RGWRYDER@mailinator.com",
+    "firstName": "Mgolla",
+    "lastName": "Ryder",
+    "phone": "1234567890",
+    "phoneType": "Mobile",
+    "bussinessName": "RyderApp",
+    "bussinessZipCode": "11111",
+    "lesse1": "37192",
+    "lesse2": "175-21409",
+    "password": "Ryder@123",
+    "confirmPassword": "Ryder@123"
+        
+},{
+	"email": "qwerty1@mailinator.com",
+    "firstName": "Mgolla",
+    "lastName": "Ryder",
+    "phone": "1234567890",
+    "phoneType": "Mobile",
+    "bussinessName": "RyderApp",
+    "bussinessZipCode": "11111",
+    "lesse1": "37192",
+    "lesse2": "175-21409",
+    "password": "Ryder@123",
+    "confirmPassword": "Ryder@123"
+}]
+
